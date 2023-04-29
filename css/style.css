@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+section .banner{
+    padding: 54px 0;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.btn{
+    background-color: #fff;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    color: #000;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+header{
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav a img{
+    width: 170px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    color: #fff;
+    margin: 0 25px;
+    font-size: 16px;
+    display: block;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 0 350px 0;
+}
+
+.banner .banner-text h1{
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Learn More*/
+
+
+.learn-more .container2{
+    display: flex;
+    align-items: center;
+    background-color: rgb(236, 236, 230);
+}
+
+.learn-more .learn-more-txt{
+    width: 50%;
+    padding: 0 25vh;
+}
+
+.learn-more .learn-more-txt h3{
+    font-size: 46px;
+}
+
+.learn-more .learn-more-txt p{
+    margin: 20px 0 30px 0;
+}
+
+.learn-more .learn-more-txt a{
+    text-transform: uppercase;
+    color: #000;
+}
+
+.learn-more .learn-more-txt a::after{
+    content: "";
+    background-color: #ececa5;
+    height: 5px;
+    width: 20%;
+    display: block;
+}
+
+.learn-more .learn-more-img{
+    width: 50%;
+}
+
+.learn-more .learn-more-img img{
+    width: 100%;
+}
