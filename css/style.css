@@ -125,3 +125,90 @@ nav ul a {
 }
 
 /*Two pics*/
+.container3{
+    display: flex;
+}
+.container3 .twopics{
+    display: flex;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+}
+.container3 .twopics img{
+    width: 100%;
+}
+.container3 .twopics h3{
+    position: absolute;
+    bottom: 15rem;
+    left: 24rem;
+    font-size: 30px;
+    color: #000;
+}
+.container3 .twopics p{
+    position: absolute;
+    top: 23rem;
+    padding: 24vh;
+    left: 2rem;
+    text-align: center;
+}
+
+/*Clients*/
+.client-testimonials{
+    background-color: #f3efeff6;
+}
+.client-testimonials .titulo-clients{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 25vh 0 10vh 0;
+}
+.client-testimonials .clients-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 20vh;
+}
+.clients-container img{
+    border-radius: 70px;
+}
+.clients-container p{
+    padding: 2vh 0 5vh 0;
+    font-size: 18px;
+}
+.clients-container span{
+    font-size: 13px;
+}
+
+/*Gallery*/
+.gallery .gallery-img{
+    display: flex;
+}
+.gallery-img img{
+    width: 25%;
+}
+
+/*Footer*/
+.footer{
+    background-color: #56ccb2;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+.footer h3{
+    font-size: 23px;
+    text-align: center;
+    padding: 5vh 0 2vh 0;
+}
+.footer .links ul{
+    display: flex;
+    justify-content: center;
+}
+.footer .links li{
+    list-style: none;
+    padding: 10px;
+}
+.footer .social img{
+    margin-top: 2vh;
+    padding: 5px;
+    width: 35px;
+}
