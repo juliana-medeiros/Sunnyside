@@ -58,6 +58,16 @@ nav ul{
     align-items: center;
 }
 
+nav .icon-menu{
+    color: #fff;
+    font-size: 23px;
+    display: none;
+}
+nav .close-icon{
+    color: #fff;
+    display: none;
+}
+
 nav ul a {
     color: #fff;
     margin: 0 25px;
