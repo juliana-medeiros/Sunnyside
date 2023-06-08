@@ -44,4 +44,42 @@
     .learn-more .learn-more-img{
         width: 100%;
     }
+    .learn-more .learn-more-txt a::after{
+        content: "";
+        background-color: #ececa5;
+        height: 5px;
+        width: 20%;
+        display: block;
+        margin-left: 9.5rem;
+    }
+    .container3{
+        display: block;
+    }
+    .container3 .twopics{
+        width: 100%;
+        display: inline-block;
+        position: relative;
+    }
+    .container3 .twopics h3{
+        bottom: 12rem;
+        left: 15rem;
+        font-size: 28px;
+    }
+    .container3 .twopics p{
+        position: absolute;
+        top: 19rem;
+        right: 2rem;
+        padding: 15vh;
+        text-align: center;
+    }
+    .client-testimonials .clients-container{
+        display: block;
+    }
+    .clients-container .clients{
+        padding-bottom: 5rem;
+    }
+    .gallery-img img{
+        width: 50%;
+    }
 }
+
