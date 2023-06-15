@@ -11,9 +11,10 @@
     <title>Document</title>
 </head>
 <body>
+    <script src="js/main.js"></script>
     <header style="background-image: url('img/desktop/image-header.jpg');">
         <div class="container">
-            <nav>
+            <nav id="nav">
                 <a href="index.html">
                     <img src="img/logo.svg" alt="logo">
                 </a>
@@ -22,11 +23,9 @@
                     <a href="#">Services</a>
                     <a href="#">Projects</a>
                     <a class="btn" href="#">Contact</a>
-                    <div class="close-icon">
-                        <i class="fa fa-times" aria-hidden="true"></i>
-                    </div>
+                    <a href="javascript:void(0)" class="close-icon" onclick="closeMenu()">&times;</a>
                 </ul>
-                <div class="icon-menu">
+                <div class="icon-menu" onclick="openMenu()">
                     <i class="fa fa-bars" id="menuMobile"></i>
                 </div>
             </nav>
@@ -80,18 +79,22 @@
             <!--Parte imagem-->
             <div class="twopics">
                 <img src="img/desktop/image-graphic-design.jpg">
-                <h3 class="texto">Graphic Design</h3>
+                <div class="texto">
+                    <h3 class="texto">Graphic Design</h3>
                 <p class="texto">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ut aut nam mis hic laborum obcaecati vero tempora accusantium est ex consequatur rem totam amet quia!
                 </p>
+                </div>
             </div>
             <!--Parte texto-->
             <div class="twopics">
                 <img src="img/desktop/image-photography.jpg">
-                <h3 class="texto">Graphic Design</h3>
+                <div class="texto">
+                    <h3 class="texto">Graphic Design</h3>
                 <p class="texto">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ut aut nam mis hic laborum obcaecati vero tempora accusantium est ex consequatur rem totam amet quia!
                 </p>
+                </div>
             </div>
         </div>
     </section>
@@ -152,6 +155,5 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
 </body>
 </html>
