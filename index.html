@@ -11,22 +11,22 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="js/main.js"></script>
     <header style="background-image: url('img/desktop/image-header.jpg');">
         <div class="container">
             <nav id="nav">
                 <a href="index.html">
-                    <img src="img/logo.svg" alt="logo">
+                    <img src="img/logo.svg" alt="logo" >
                 </a>
                 <ul class="nav-itens">
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Projects</a>
-                    <a class="btn" href="#">Contact</a>
-                    <a href="javascript:void(0)" class="close-icon" onclick="closeMenu()">&times;</a>
+                    <li class="nav-item"><a href="#">About</a></li>
+                    <li class="nav-item"><a href="#">Services</a></li>
+                    <li class="nav-item"><a href="#">Projects</a></li>
+                    <li class="nav-item"><a class="btn" href="#">Contact</a></li>
                 </ul>
-                <div class="icon-menu" onclick="openMenu()">
-                    <i class="fa fa-bars" id="menuMobile"></i>
+                <div class="hamburguer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
             </nav>
             <section class="banner">
@@ -154,6 +154,6 @@
             <img src="img/icon-pinterest.svg">
         </div>
     </footer>
-
+    <script src="js/main.js"></script>
 </body>
 </html>

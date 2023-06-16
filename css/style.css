@@ -48,6 +48,9 @@ nav{
     justify-content: space-between;
     padding-top: 30px;
 }
+li{
+    list-style: none;
+}
 
 nav a img{
     width: 170px;
@@ -57,16 +60,18 @@ nav ul{
     display: flex;
     align-items: center;
 }
-
-nav .icon-menu{
-    color: #fff;
-    font-size: 23px;
+.hamburguer{
     display: none;
     cursor: pointer;
 }
-nav .close-icon{
-    color: #fff;
-    display: none;
+.bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
 }
 
 nav ul a {
